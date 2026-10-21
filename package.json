@@ -1,0 +1,20 @@
+{
+  "name": "istorii",
+  "version": "1.0.0",
+  "description": "Website for ISTORII coffee shop",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "coffee",
+    "cafe",
+    "istorii"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^13.0.3"
+  }
+}

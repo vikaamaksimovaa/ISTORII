@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="ISTORII — уютная кофейня, где каждый напиток становится частью вашей истории.">
+
+    <title>ISTORII — кофейня твоих историй</title>
+
+    <link rel="stylesheet" href="/style.css">
+
+    <script src="/script.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container header-content">
+            <a class="logo" href="#home">ISTORII</a>
+
+            <nav aria-label="Главная навигация">
+                <a href="#home">Главная</a>
+                <a href="#about">О нас</a>
+                <a href="#menu">Меню</a>
+                <a href="#contacts">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="container hero-content">
+                <p class="eyebrow">КОФЕЙНЯ ТВОИХ ИСТОРИЙ</p>
+
+                <h1>У каждой чашки<br>своя история</h1>
+
+                <p class="hero-description">
+                    Ароматный кофе, любимые десерты
+                    и моменты, которые хочется запомнить.
+                </p>
+
+                <a class="button" href="#menu">
+                    Посмотреть меню
+                </a>
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <div class="container">
+                <p class="eyebrow">НАША ФИЛОСОФИЯ</p>
+
+                <h2>Больше, чем просто кофе</h2>
+
+                <p class="about-description">
+                    ISTORII — место для тёплых встреч,
+                    неспешных утр и маленьких радостей.
+                    Заходи за любимым напитком и создавай
+                    свои истории вместе с нами.
+                </p>
+            </div>
+        </section>
+
+        <section class="menu section" id="menu">
+            <div class="container">
+                <p class="eyebrow">ВЫБИРАЙ ЛЮБИМОЕ</p>
+
+                <h2>Наше меню</h2>
+
+                <p class="section-description">
+                    Напитки и десерты для твоего настроения.
+                </p>
+
+                <!-- Товары будут загружаться из базы данных SQLite. -->
+                <div id="menu-container" class="menu-grid" aria-live="polite">
+                    Загружаем меню...
+                </div>
+            </div>
+        </section>
+
+        <section class="contacts section" id="contacts">
+            <div class="container">
+                <p class="eyebrow">БУДЕМ РАДЫ ВСТРЕЧЕ</p>
+
+                <h2>Заглядывай на чашечку кофе</h2>
+
+                <p>
+                    ISTORII — место, где начинаются
+                    хорошие истории.
+                </p>
+
+                <p>
+                    <strong>Время работы:</strong>
+                    ежедневно, 09:00–21:00
+                </p>
+
+                <p>
+                    <strong>Адрес:</strong>
+                    скоро здесь появится наш адрес
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>
+                &copy; 2026 ISTORII.
+                Кофейня твоих историй.
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
